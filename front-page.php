@@ -5,9 +5,8 @@
  * @package Rich VIP Transfer
  */
 get_header();
+if (function_exists('wp_body_open')) {
+  wp_body_open();
+}
+get_footer();
 ?>
-<!-- <h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1> -->
-<?php wp_body_open(); ?>
-<?php get_footer(); ?>

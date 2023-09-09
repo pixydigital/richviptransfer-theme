@@ -18,7 +18,7 @@ function richviptransfer_enqueue_scripts()
   wp_register_script(
     'main-js',
     get_template_directory_uri() . '/assets/js/main.js',
-    [],
+    ['jquery'],
     filemtime(get_template_directory() . '/assets/js/main.js'),
     true
   );
