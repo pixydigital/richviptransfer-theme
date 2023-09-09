@@ -1,14 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/wp-content/themes/richviptransfer/dist/output.css" rel="stylesheet">
-  <title>Document</title>
-</head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</body>
-</html>
+<?php
+/*
+ * Main template file.
+ *
+ * @package Rich VIP Transfer
+ */
+get_header();
+?>
+<!-- <h1 class="text-3xl font-bold underline">
+  Hello world!
+</h1> -->
+<?php wp_body_open(); ?>
+<?php get_footer(); ?>
