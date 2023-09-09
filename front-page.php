@@ -2,11 +2,10 @@
 /*
  * Main template file.
  *
- * @package Rich VIP Transfer
+ * @package richviptransfer
  */
 get_header();
-if (function_exists('wp_body_open')) {
+if (function_exists('wp_body_open'))
   wp_body_open();
-}
 get_footer();
 ?>

@@ -1,13 +1,13 @@
 <?php
 /*
- * Footer template
+ * Footer template.
  * 
- * @package Rich VIP Transfer
+ * @package richviptransfer
  */
+wp_footer();
 ?>
-<?php wp_footer(); ?>
-<footer>Footer Area</footer>
 
+<footer>Footer Area</footer>
 </body>
 
 </html>

@@ -1,10 +1,11 @@
 <?php
 /*
- * Header template.
+ * Header  template.
  *
- * @package Rich VIP Transter
+ * @package richviptransfer 
  */
 ?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
@@ -20,5 +21,5 @@
   </title>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class() ?>>
   <header>Header Area</header>
