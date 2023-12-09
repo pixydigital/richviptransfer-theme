@@ -14,14 +14,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php wp_head(); ?>
   <title>
-    <?php
-    wp_title('|', true, 'right');
-    bloginfo('name');
-    ?>
+    <?php bloginfo('name'); ?>
   </title>
 </head>
 
-<body <?php body_class() ?>>
+<body <?php body_class(); ?>>
   <header>
     <div>
       <div>
@@ -34,13 +31,13 @@
     <!-- ENDs: BLOK HEADER -->
     <nav class="">
       <div class="">
-        <img src="" />
+        <img src="<?php echo get_template_directory_uri() . '/path/to/your/logo.png'; ?>" alt="Logo" />
       </div>
       <div class="">
         <?php
         wp_nav_menu(
           array(
-            'theme_location' => 'primary',
+            'theme_location' => 'primary_menu',
             'container' => 'nav',
             'container_class' => 'main-menu yoo1',
             'menu_class' => 'nav-menu',
