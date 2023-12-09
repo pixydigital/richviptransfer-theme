@@ -31,7 +31,8 @@
     <!-- ENDs: BLOK HEADER -->
     <nav class="">
       <div class="">
-        <img src="<?php echo get_template_directory_uri() . '/path/to/your/logo.png'; ?>" alt="Logo" />
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/logo.png'; ?>"
+          alt="<?php bloginfo('name'); ?>" />
       </div>
       <div class="">
         <?php
