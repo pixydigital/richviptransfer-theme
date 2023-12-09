@@ -22,4 +22,31 @@
 </head>
 
 <body <?php body_class() ?>>
-  <header>Header Area</header>
+  <header>
+    <div>
+      <div>
+        0850 123 45 67
+      </div>
+      <div class="relative inline-block text-left">
+        Language
+      </div>
+    </div>
+    <!-- ENDs: BLOK HEADER -->
+    <nav class="">
+      <div class="">
+        <img src="" />
+      </div>
+      <div class="">
+        <?php
+        wp_nav_menu(
+          array(
+            'theme_location' => 'primary',
+            'container' => 'nav',
+            'container_class' => 'main-menu yoo1',
+            'menu_class' => 'nav-menu',
+          )
+        );
+        ?>
+      </div>
+    </nav>
+  </header>
