@@ -21,7 +21,7 @@
 <body <?php body_class(); ?>>
   <header>
     <div>
-      <div>
+      <div class="h2">
         0850 123 45 67
       </div>
       <div class="relative inline-block text-left">
